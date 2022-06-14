@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -10,8 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CodeIcon from '@mui/icons-material/Code';
 
 import { Box, Menu, MenuItem, Stack } from '@mui/material';
-
-import resume from '../static/kep-kaeppeler-resume.pdf';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [ anchorElNav, setAnchorElNav ] = useState(null);
@@ -41,6 +40,11 @@ const Navbar = () => {
       target: false
     }
   ];
+  /*
+    fontFamily: 'asap',
+    fontWeight: 700,
+    <CodeIcon sx={{ display: { md: 'flex' }, mr: 1 }} />
+  */
 
   return (
     <AppBar position="fixed">
@@ -53,7 +57,11 @@ const Navbar = () => {
             color="inherit"
             aria-label="code icon"
           >
-            <CodeIcon sx={{ display: { md: 'flex' }, mr: 1 }} />
+            <Image
+              src="/images/rp_logo_1600x510.svg"
+              width={200}
+              height={63.75}
+            />
           </IconButton>
 
           <Typography
@@ -64,15 +72,13 @@ const Navbar = () => {
             sx={{
               mr: 2,
               display: { md: 'flex' },
-              fontFamily: 'asap',
-              fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
               flexGrow: 1
             }}
           >
-            Kep Kaeppeler
+            R&P Plastics
           </Typography>
 
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>

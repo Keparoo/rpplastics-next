@@ -26,11 +26,18 @@ const Hero = () => {
             priority
           />
           <Typography variant="body1" sx={{ maxWidth: '720px' }}>
-            Welcome to R&P Plastics, LLC! Visit the "About Us" page to learn
-            more about our company. To find information on the products we
-            offer, please visit the "Products" page. If you have questions, care
-            to leave a message, or would like to receive a quote, please{' '}
-            <Link href="#" color="secondary">
+            Welcome to R&P Plastics, LLC! Visit the{' '}
+            <Link href="#about" color="secondary">
+              About
+            </Link>{' '}
+            section to learn more about our company. To find information about
+            the products we offer, please visit the{' '}
+            <Link href="#products" color="secondary">
+              Products
+            </Link>{' '}
+            section. If you have questions, care to leave a message, or would
+            like to receive a quote, please{' '}
+            <Link href="#contact" color="secondary">
               contact us.
             </Link>
           </Typography>

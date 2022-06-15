@@ -20,7 +20,7 @@ const Contact = () => {
       <Stack direction="row" spacing={1} mt={2}>
         <LocalPhoneIcon />
         <Tooltip title="Call us">
-          <Link href="tel:978-297-1115" color="inherit">
+          <Link href="tel:978-297-1115" color="secondary">
             978-297-1115
           </Link>
         </Tooltip>

@@ -82,7 +82,7 @@ const Navbar = () => {
             {' '}
           </Typography>
 
-          <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ display: { xs: 'flex', sm: 'none' } }}>
             <IconButton
               size="large"
               aria-label="headings of website"
@@ -109,7 +109,7 @@ const Navbar = () => {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' }
+                display: { xs: 'block', sm: 'none' }
               }}
             >
               {navLinks.map((link) => (
@@ -129,7 +129,7 @@ const Navbar = () => {
           <Stack
             direction="row"
             spacing={2}
-            sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}
+            sx={{ display: { xs: 'none', sm: 'flex' }, mr: 1 }}
           >
             {navLinks.map((link) => (
               <Button

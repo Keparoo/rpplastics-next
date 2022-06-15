@@ -4,7 +4,7 @@ import Link from './Link';
 
 const Footer = () => {
   return (
-    <Box mt={2}>
+    <Box mt={2} pb={2}>
       <Stack direction="row" spacing={4} justifyContent="center">
         <Link href="#home" color="secondary">
           Home

@@ -8,7 +8,7 @@ const About = () => {
         variant="h2"
         component="h2"
         color="secondary"
-        sx={{ display: { xs: 'none', md: 'flex' }, float: 'right' }}
+        sx={{ display: { xs: 'none', sm: 'flex' }, float: 'right' }}
       >
         Our History
       </Typography>
@@ -17,7 +17,7 @@ const About = () => {
         variant="h2"
         component="h2"
         color="secondary"
-        sx={{ display: { xs: 'flex', md: 'none' } }}
+        sx={{ display: { xs: 'flex', sm: 'none' } }}
       >
         Our History
       </Typography>

@@ -5,7 +5,7 @@ import { Box } from '@mui/system';
 
 const SlideShow = () => {
   return (
-    <Box sx={{ maxWidth: '400px' }} justifySelf="center">
+    <Box sx={{ maxWidth: '400px' }}>
       <Carousel navButtonsAlwaysVisible="true">
         <Image
           src="/images/slide_show/slide_show1.jpg"

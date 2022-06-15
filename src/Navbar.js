@@ -79,7 +79,7 @@ const Navbar = () => {
               flexGrow: 1
             }}
           >
-            R&P Plastics
+            {' '}
           </Typography>
 
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>

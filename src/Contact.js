@@ -1,4 +1,4 @@
-import { Box, Stack, Typography, Tooltip } from '@mui/material';
+import { Box, Stack, Typography, Tooltip, Grid } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
@@ -8,21 +8,7 @@ import Link from './Link';
 const Contact = () => {
   return (
     <Box id="contact" pt={13}>
-      <Typography
-        variant="h2"
-        component="h2"
-        color="secondary"
-        sx={{ display: { xs: 'none', md: 'flex' }, float: 'right' }}
-      >
-        Contact Us
-      </Typography>
-
-      <Typography
-        variant="h2"
-        component="h2"
-        color="secondary"
-        sx={{ display: { xs: 'flex', md: 'none' } }}
-      >
+      <Typography variant="h2" component="h2" color="secondary" mb={2}>
         Contact Us
       </Typography>
 

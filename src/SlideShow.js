@@ -10,44 +10,44 @@ const SlideShow = () => {
         <Image
           src="/images/slide_show/slide_show1.jpg"
           alt="slide show 1"
-          width={600}
-          height={600}
+          width={773}
+          height={773}
         />
         <Image
           src="/images/slide_show/slide_show2.jpg"
           alt="slide show 2"
-          width={600}
-          height={600}
+          width={773}
+          height={773}
         />
         <Image
           src="/images/slide_show/slide_show3.jpg"
           alt="slide show 3"
-          width={600}
-          height={600}
+          width={773}
+          height={773}
         />
         <Image
           src="/images/slide_show/slide_show4.jpg"
           alt="slide show 4"
-          width={600}
-          height={600}
+          width={773}
+          height={773}
         />
         <Image
           src="/images/slide_show/slide_show5.jpg"
           alt="slide show 5"
-          width={600}
-          height={600}
+          width={773}
+          height={773}
         />
         <Image
           src="/images/slide_show/slide_show6.jpg"
           alt="slide show 6"
-          width={600}
-          height={600}
+          width={773}
+          height={773}
         />
         <Image
           src="/images/slide_show/slide_show7.jpg"
           alt="slide show 7"
-          width={600}
-          height={600}
+          width={773}
+          height={773}
         />
         <Image
           src="/images/slide_show/slide_show8.jpg"

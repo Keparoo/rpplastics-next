@@ -1,4 +1,5 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
+import Image from 'next/image';
 import Link from './Link';
 
 const Products = () => {
@@ -16,30 +17,38 @@ const Products = () => {
         products are proudly made in the U.S.A.
       </Typography>
 
-      <Typography variant="h6" component="h3" mt={2}>
-        We are pleased to announce that we have extended our product line to
-        include the following using blends of LDPE and LLDPE:
-      </Typography>
-      <ul>
-        <li>Film sizes from 1" to 40" lay-flat</li>
-        <li>Sheeting to 40" &mdash; DWS AND SWS</li>
-        <li>C-Fold from 3" to 40”</li>
-        <li>J-Films</li>
-        <li>Lay-flat bags 3" to 38" wide</li>
-        <li>Gusseted bags 8" to 45" total inside dimension</li>
-        <li>Star seal bags</li>
-        <li>B.O.R. or Individual bags</li>
-        <li>Various colors and additives</li>
-        <li>FDA approved products available upon request </li>
-      </ul>
-      <Typography mb={2}>
-        This is a list of our most common products; however, it is not
-        everything we are capable of producing.<br />Please contact us if you
-        need assistance with a product not listed above.
-      </Typography>
-      <Link href="#" color="secondary">
-        Download PDF of product list
-      </Link>
+      <Grid container>
+        <Grid item xs="12" sm="6">
+          <Typography variant="subtitle2" component="h3" mt={2}>
+            We are pleased to announce that we have extended our product line to
+            include the following using blends of LDPE and LLDPE:
+          </Typography>
+          <ul>
+            <li>Film sizes from 1" to 40" lay-flat</li>
+            <li>Sheeting to 40" &mdash; DWS AND SWS</li>
+            <li>C-Fold from 3" to 40”</li>
+            <li>J-Films</li>
+            <li>Lay-flat bags 3" to 38" wide</li>
+            <li>Gusseted bags 8" to 45" total inside dimension</li>
+            <li>Star seal bags</li>
+            <li>B.O.R. or Individual bags</li>
+            <li>Various colors and additives</li>
+            <li>FDA approved products available upon request </li>
+          </ul>
+          <Typography mb={2}>
+            This is a list of our most common products; however, it is not
+            everything we are capable of producing.<br />Please contact us if
+            you need assistance with a product not listed above.
+          </Typography>
+          <Link href="#" color="secondary">
+            Download PDF of product list
+          </Link>
+        </Grid>
+
+        <Grid item xs="12" sm="6" mt={4}>
+          <Image src="/images/products.jpg" width={537} height={403} />
+        </Grid>
+      </Grid>
     </Box>
   );
 };

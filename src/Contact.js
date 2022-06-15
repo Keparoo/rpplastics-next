@@ -3,6 +3,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import FaxIcon from '@mui/icons-material/Fax';
+import MarkunreadMailboxIcon from '@mui/icons-material/MarkunreadMailbox';
 import Link from './Link';
 
 const Contact = () => {
@@ -12,8 +13,11 @@ const Contact = () => {
         Contact Us
       </Typography>
 
+      <Stack direction="row" spacing={1}>
+        <MarkunreadMailboxIcon />
+        <Typography>R&P Plastics, LLC</Typography>
+      </Stack>
       <Typography variant="body1" ml={4}>
-        R&P Plastics, LLC<br />
         202 Spruce St<br />
         Winchendon, MA 01475-1159<br />
       </Typography>

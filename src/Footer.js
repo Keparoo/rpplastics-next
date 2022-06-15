@@ -20,7 +20,7 @@ const Footer = () => {
         </Link>
       </Stack>
 
-      <Typography mt={2} align="center" color="secondary" id="footer">
+      <Typography mt={2} align="center" id="footer">
         Copyright &copy; 2012, R&P Plastics, LLC. All Rights Reserved.
       </Typography>
     </Box>

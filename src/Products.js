@@ -9,12 +9,12 @@ const Products = () => {
         Our Products
       </Typography>
       <Typography variant="body1">
-        R&P Plastics, LLC offers a wide variety of product options. We
-        specialize in manufacturing narrow width tubing starting at 1" wide and
-        many sizes of poly bags up to 38" wide. R&P is committed to providing
-        our customers with the highest quality of products available. We proudly
-        use FDA approved materials with the proper certifications. All of our
-        products are proudly made in the U.S.A.
+        R&P Plasticss offers a wide variety of product options. We specialize in
+        manufacturing narrow width tubing starting at 1" wide and many sizes of
+        poly bags up to 38" wide. R&P is committed to providing our customers
+        with the highest quality of products available. We proudly use FDA
+        approved materials with the proper certifications. All of our products
+        are proudly made in the U.S.A.
       </Typography>
 
       <Grid container>
@@ -24,12 +24,12 @@ const Products = () => {
             include the following using blends of LDPE and LLDPE:
           </Typography>
           <ul>
-            <li>Film sizes from 1" to 40" lay-flat</li>
-            <li>Sheeting to 40" &mdash; DWS AND SWS</li>
-            <li>C-Fold from 3" to 40”</li>
+            <li>Film sizes from 1&ndash;40 inch wide (lay-flat)</li>
+            <li>Sheeting to 40 inch wide (DWS and SWS)</li>
+            <li>C-Fold from 3&ndash;40 inch wide</li>
             <li>J-Films</li>
-            <li>Lay-flat bags 3" to 38" wide</li>
-            <li>Gusseted bags 8" to 45" total inside dimension</li>
+            <li>Lay-flat bags 3&ndash;38 inch wide</li>
+            <li>Gusseted bags 8&ndash;45 inch (total inside dimension)</li>
             <li>Star seal bags</li>
             <li>B.O.R. or Individual bags</li>
             <li>Various colors and additives</li>

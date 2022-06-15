@@ -4,15 +4,29 @@ import SlideShow from './SlideShow';
 const About = () => {
   return (
     <Box pt={13} id="about">
-      <Typography variant="h2" component="h2" color="secondary" align="right">
+      <Typography
+        variant="h2"
+        component="h2"
+        color="secondary"
+        sx={{ display: { xs: 'none', md: 'flex' }, float: 'right' }}
+      >
+        Our History
+      </Typography>
+
+      <Typography
+        variant="h2"
+        component="h2"
+        color="secondary"
+        sx={{ display: { xs: 'flex', md: 'none' } }}
+      >
         Our History
       </Typography>
 
       <Grid container spacing={2} mt={2}>
-        <Grid item md={6} xm={12}>
+        <Grid item md={6} xs={12}>
           <SlideShow />
         </Grid>
-        <Grid item md={6} xm={12}>
+        <Grid item md={6} xs={12}>
           <Typography variant="body1">
             R&P Plastics, LLC, a family-owned and operated business, was
             established in Worcester, MA in 1999. After working in the plastics

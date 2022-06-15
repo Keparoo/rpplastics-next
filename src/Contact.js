@@ -8,10 +8,25 @@ import Link from './Link';
 const Contact = () => {
   return (
     <Box id="contact" pt={13}>
-      <Typography variant="h2" component="h2" color="secondary" align="right">
+      <Typography
+        variant="h2"
+        component="h2"
+        color="secondary"
+        sx={{ display: { xs: 'none', md: 'flex' }, float: 'right' }}
+      >
         Contact Us
       </Typography>
-      <Typography variant="body1">
+
+      <Typography
+        variant="h2"
+        component="h2"
+        color="secondary"
+        sx={{ display: { xs: 'flex', md: 'none' } }}
+      >
+        Contact Us
+      </Typography>
+
+      <Typography variant="body1" ml={4}>
         R&P Plastics, LLC<br />
         202 Spruce St<br />
         Winchendon, MA 01475-1159<br />

@@ -21,7 +21,7 @@ const Hero = () => {
           <Image
             src="/images/building_exterior.jpg"
             alt="R&P Plastics Building"
-            width={770}
+            width={730}
             height={280}
             priority
           />

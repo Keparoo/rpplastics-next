@@ -46,7 +46,12 @@ const Products = () => {
         </Grid>
 
         <Grid item xs="12" sm="6" mt={4}>
-          <Image src="/images/products.jpg" width={537} height={403} />
+          <Image
+            src="/images/products.jpg"
+            alt="rolls of plastic"
+            width={537}
+            height={403}
+          />
         </Grid>
       </Grid>
     </Box>

@@ -61,15 +61,16 @@ const Navbar = () => {
           >
             <Image
               src="/images/rp_logo_1600x510.svg"
-              width={200}
-              height={63.75}
+              alt="R&P Logo"
+              width={300}
+              height={96}
             />
           </IconButton>
 
           <Typography
             variant="h6"
             noWrap
-            component="a"
+            component="span"
             sx={{
               mr: 2,
               display: { md: 'flex' },

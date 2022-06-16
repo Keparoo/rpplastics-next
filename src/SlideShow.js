@@ -14,43 +14,43 @@ const SlideShow = () => {
           height={773}
         />
         <Image
-          src="/images/slide_show/slide_show2.jpg"
+          src="/images/slide_show/slide_show2_580x580.jpg"
           alt="slide show 2"
           width={773}
           height={773}
         />
         <Image
-          src="/images/slide_show/slide_show3.jpg"
+          src="/images/slide_show/slide_show3_580x580.jpg"
           alt="slide show 3"
           width={773}
           height={773}
         />
         <Image
-          src="/images/slide_show/slide_show4.jpg"
+          src="/images/slide_show/slide_show4_580x580.jpg"
           alt="slide show 4"
           width={773}
           height={773}
         />
         <Image
-          src="/images/slide_show/slide_show5.jpg"
+          src="/images/slide_show/slide_show5_580x580.jpg"
           alt="slide show 5"
           width={773}
           height={773}
         />
         <Image
-          src="/images/slide_show/slide_show6.jpg"
+          src="/images/slide_show/slide_show6_580x580.jpg"
           alt="slide show 6"
           width={773}
           height={773}
         />
         <Image
-          src="/images/slide_show/slide_show7.jpg"
+          src="/images/slide_show/slide_show7_580x580.jpg"
           alt="slide show 7"
           width={773}
           height={773}
         />
         <Image
-          src="/images/slide_show/slide_show8.jpg"
+          src="/images/slide_show/slide_show8_580x580.jpg"
           alt="slide show 8"
           width={773}
           height={773}

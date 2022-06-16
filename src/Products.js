@@ -29,8 +29,8 @@ const Products = () => {
             <li>C-Fold from 3&ndash;40 inch wide</li>
             <li>J-Films</li>
             <li>Lay-flat bags 3&ndash;38 inch wide</li>
-            <li>Gusseted bags 8&ndash;45 inch (total inside dimension)</li>
-            <li>Star seal bags</li>
+            <li>Gusseted bags 8&ndash;45 inch (total inside dimensions)</li>
+            <li>Star-seal bags</li>
             <li>B.O.R. or Individual bags</li>
             <li>Various colors and additives</li>
             <li>FDA approved products available upon request </li>

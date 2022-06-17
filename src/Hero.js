@@ -4,7 +4,7 @@ import Link from './Link';
 
 const Hero = () => {
   return (
-    <Box pt={13} id="home">
+    <Box pt={20} id="home">
       <Grid container spacing={2}>
         <Grid item md={4} sm={12}>
           <Typography variant="h2" component="h1" color="secondary">

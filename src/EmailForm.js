@@ -1,38 +1,19 @@
-import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+
 import { Button, Stack, TextField, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 
 const EmailForm = () => {
-  const [ form, setForm ] = useState({
-    firstName: '',
-    lastName: '',
-    phone: '',
-    company: '',
-    email: '',
-    phone: '',
-    message: ''
-  });
+  const {
+    handleSubmit,
+    register,
+    reset,
+    formState: { errors, isSubmitSuccessful }
+  } = useForm();
 
-  const resetForm = () => {
-    setForm({
-      firstName: '',
-      lastName: '',
-      phone: '',
-      company: '',
-      email: '',
-      phone: '',
-      message: ''
-    });
-  };
-
-  const handleChange = (event) => {
-    const value = event.target.value;
-    setForm({ ...form, [event.target.name]: value });
-  };
-
-  const handleSubmit = () => {
-    console.log(form.name, form.email, form.message);
-    resetForm();
+  const onSubmit = (data) => {
+    console.log(data, errors);
+    reset();
   };
 
   return (
@@ -49,59 +30,67 @@ const EmailForm = () => {
     >
       <Stack spacing={2}>
         <TextField
+          {...register('firstName', { required: 'First name is required' })}
           label="First Name"
           id="firstName"
           name="firstName"
-          value={form.firstName}
-          onChange={handleChange}
+          error={!!errors['firstName']}
+          helperText={errors['firstName'] ? errors['firstName'].message : ''}
           required
         />
         <TextField
+          {...register('lastName', { required: 'Last name is required' })}
           label="Last Name"
           id="lastName"
           name="lastName"
-          value={form.lastName}
-          onChange={handleChange}
+          error={!!errors['lastName']}
+          helperText={errors['lastName'] ? errors['lastName'].message : ''}
           required
         />
 
         <TextField
+          {...register('company', { required: 'Company is required' })}
           label="Company"
           id="company"
           name="company"
-          value={form.company}
-          onChange={handleChange}
+          error={!!errors['company']}
+          helperText={errors['company'] ? errors['company'].message : ''}
           required
         />
         <TextField
+          {...register('email', { required: 'Email is required' })}
           label="Email"
           id="email"
           name="email"
           type="email"
-          value={form.email}
-          onChange={handleChange}
+          error={!!errors['email']}
+          helperText={errors['email'] ? errors['email'].message : ''}
           required
         />
         <TextField
+          {...register('phone')}
           label="Phone"
           id="phone"
           name="phone"
           type="email"
-          value={form.phone}
-          onChange={handleChange}
         />
         <TextField
+          {...register('message', { required: 'Message is required' })}
           label="Message"
           id="message"
           name="message"
-          value={form.message}
-          onChange={handleChange}
+          error={!!errors['message']}
+          helperText={errors['message'] ? errors['message'].message : ''}
           required
           multiline
           rows={8}
         />
       </Stack>
-      <Button onClick={handleSubmit} variant="contained" sx={{ width: '97%' }}>
+      <Button
+        onClick={handleSubmit(onSubmit)}
+        variant="contained"
+        sx={{ width: '97%' }}
+      >
         Send
       </Button>
     </Box>

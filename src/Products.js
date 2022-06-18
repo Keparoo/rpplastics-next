@@ -18,7 +18,7 @@ const Products = () => {
       </Typography>
 
       <Grid container>
-        <Grid item xs="12" sm="6">
+        <Grid item xs={12} sm={6}>
           <Typography variant="subtitle2" component="h3" mt={2}>
             We are pleased to announce that we have extended our product line to
             include the following using blends of LDPE and LLDPE:
@@ -45,7 +45,7 @@ const Products = () => {
           </Link>
         </Grid>
 
-        <Grid item xs="12" sm="6" mt={4}>
+        <Grid item xs={12} sm={6} mt={4}>
           <Image
             src="/images/products.jpg"
             alt="rolls of plastic"

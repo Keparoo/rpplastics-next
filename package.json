@@ -19,6 +19,7 @@
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-hook-form": "^7.32.2",
     "react-material-ui-carousel": "^3.4.2"
   },
   "devDependencies": {

@@ -24,23 +24,23 @@ const Products = () => {
             include the following using blends of LDPE and LLDPE:
           </Typography>
           <ul>
-            <li>Film sizes from 1&ndash;40 inch wide (lay-flat)</li>
-            <li>Sheeting to 40 inch wide (DWS and SWS)</li>
-            <li>C-Fold from 3&ndash;40 inch wide</li>
+            <li>Film sizes from 1&ndash;40 inches wide (lay-flat)</li>
+            <li>Sheeting to 40 inches wide (DWS and SWS)</li>
+            <li>C-Fold from 3&ndash;40 inches wide</li>
             <li>J-Films</li>
-            <li>Lay-flat bags 3&ndash;38 inch wide</li>
-            <li>Gusseted bags 8&ndash;45 inch (total inside dimensions)</li>
+            <li>Lay-flat bags 3&ndash;38 inches wide</li>
+            <li>Gusseted bags 8&ndash;45 inches (total inside dimensions)</li>
             <li>Star-seal bags</li>
             <li>B.O.R. or Individual bags</li>
             <li>Various colors and additives</li>
-            <li>FDA approved products available upon request </li>
+            <li>FDA-approved products available upon request </li>
           </ul>
           <Typography mb={2}>
             This is a list of our most common products; however, it is not
             everything we are capable of producing.<br />Please contact us if
             you need assistance with a product not listed above.
           </Typography>
-          <Link href="#" color="secondary">
+          <Link href="/product_list.pdf" target="_blank" color="secondary">
             Download PDF of product list
           </Link>
         </Grid>

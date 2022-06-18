@@ -26,7 +26,7 @@ const Contact = () => {
             Winchendon, MA 01475-1159<br />
           </Typography>
 
-          <Stack direction="row" spacing={1} mt={2}>
+          <Stack direction="row" spacing={1} mt={6}>
             <LocalPhoneIcon />
             <Tooltip title="Call us">
               <Link variant="h6" href="tel:978-297-1115" color="secondary">
@@ -44,7 +44,7 @@ const Contact = () => {
             </Tooltip>
           </Stack>
 
-          <Stack direction="row" spacing={1}>
+          <Stack direction="row" spacing={1} mb={6}>
             <EmailIcon />
             <Tooltip title="Send us an email" enterTouchDelay={0}>
               <Link

@@ -8,9 +8,11 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
 import CodeIcon from '@mui/icons-material/Code';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
-import { Box, Menu, MenuItem, Stack } from '@mui/material';
+import { Box, Menu, MenuItem, Stack, Tooltip } from '@mui/material';
 import Image from 'next/image';
+import Link from './Link';
 
 const Navbar = () => {
   const [ anchorElNav, setAnchorElNav ] = useState(null);
@@ -37,6 +39,11 @@ const Navbar = () => {
     {
       name: 'Contact',
       href: '#contact',
+      target: false
+    },
+    {
+      name: 'Phone: 978-297-1115',
+      href: 'tel:978-297-1115',
       target: false
     }
   ];
@@ -83,7 +90,7 @@ const Navbar = () => {
             {' '}
           </Typography>
 
-          <Box sx={{ display: { xs: 'flex', sm: 'none' } }}>
+          <Box sx={{ display: { sm: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="headings of website"
@@ -110,7 +117,7 @@ const Navbar = () => {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', sm: 'none' }
+                display: { sm: 'block', md: 'none' }
               }}
             >
               {navLinks.map((link) => (
@@ -130,7 +137,7 @@ const Navbar = () => {
           <Stack
             direction="row"
             spacing={2}
-            sx={{ display: { xs: 'none', sm: 'flex' }, mr: 1 }}
+            sx={{ display: { xs: 'none', sm: 'none', md: 'flex' }, mr: 1 }}
           >
             {navLinks.map((link) => (
               <Button

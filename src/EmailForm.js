@@ -44,8 +44,7 @@ const EmailForm = () => {
       method="post"
       enctype="text/plain"
       sx={{
-        '& > :not(style)': { m: 1, width: '38ch' },
-        button: { width: '43ch' }
+        '& > :not(style)': { m: 1, minWidth: '38ch' }
       }}
     >
       <Stack spacing={2}>
@@ -102,7 +101,7 @@ const EmailForm = () => {
           rows={8}
         />
       </Stack>
-      <Button onClick={handleSubmit} variant="contained" sx={{ width: '30px' }}>
+      <Button onClick={handleSubmit} variant="contained" sx={{ width: '97%' }}>
         Send
       </Button>
     </Box>

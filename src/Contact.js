@@ -34,6 +34,7 @@ const Contact = () => {
               </Link>
             </Tooltip>
           </Stack>
+
           <Stack direction="row" spacing={1}>
             <FaxIcon />
             <Tooltip title="Fax number">
@@ -49,9 +50,8 @@ const Contact = () => {
               <Link
                 href="mailto:rpplastics@msn.com"
                 target="_blank"
-                underline="hover"
                 rel="noopener"
-                color="inherit"
+                color="secondary"
                 variant="h6"
               >
                 rpplastics@msn.com

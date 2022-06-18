@@ -67,10 +67,10 @@ const Navbar = () => {
             aria-label="code icon"
           >
             <Image
-              src="/images/rp_logo_1600x510.svg"
+              src="/images/rp_logo_a_1600x510.svg"
               alt="R&P Logo"
-              width={300}
-              height={96}
+              width={200}
+              height={64}
             />
           </IconButton>
 

@@ -4,7 +4,7 @@ import Link from './Link';
 
 const Hero = () => {
   return (
-    <Box pt={20} id="home">
+    <Box pt={13} id="home">
       <Grid container spacing={2}>
         <Grid item md={4} sm={12}>
           <Typography variant="h2" component="h1" color="secondary">
@@ -26,7 +26,7 @@ const Hero = () => {
             priority
           />
           <Typography variant="body1" sx={{ maxWidth: '720px' }}>
-            Welcome to R&P Plastics, LLC! Visit the{' '}
+            Welcome to R&P Plasticss! Visit the{' '}
             <Link href="#about" color="secondary">
               About
             </Link>{' '}
@@ -35,8 +35,8 @@ const Hero = () => {
             <Link href="#products" color="secondary">
               Products
             </Link>{' '}
-            section. If you have questions, care to leave a message, or would
-            like to receive a quote, please{' '}
+            section.<br />If you have questions, care to leave a message, or
+            would like to receive a quote, please{' '}
             <Link href="#contact" color="secondary">
               contact us.
             </Link>

@@ -22,7 +22,7 @@ const EmailForm = () => {
       component="form"
       noValidate
       autoComplete="off"
-      action="mailto:rpplastics@msn.com"
+      action="mailto:https://rpplastics@msn.com"
       method="post"
       enctype="text/plain"
       sx={{

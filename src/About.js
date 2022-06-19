@@ -1,5 +1,6 @@
 import { Box, Grid, Paper, Typography } from '@mui/material';
 import SlideShow from './SlideShow';
+import styles from '../styles/Home.module.css';
 
 const About = () => {
   return (
@@ -8,16 +9,12 @@ const About = () => {
         variant="h2"
         component="h2"
         color="secondary"
-        sx={{ display: { xs: 'none', sm: 'flex' }, float: 'right' }}
-      >
-        Our History
-      </Typography>
-
-      <Typography
-        variant="h2"
-        component="h2"
-        color="secondary"
-        sx={{ display: { xs: 'flex', sm: 'none' } }}
+        sx={{
+          display: { xs: 'flex', sm: 'flex', md: 'none' },
+          fontFamily: 'Lexend Mega',
+          fontSize: '36px',
+          fontWeight: '700'
+        }}
       >
         Our History
       </Typography>
@@ -27,6 +24,21 @@ const About = () => {
           <SlideShow />
         </Grid>
         <Grid item md={6} xs={12}>
+          <Typography
+            variant="h2"
+            component="h2"
+            color="secondary"
+            className={styles.heading}
+            sx={{
+              display: { xs: 'none', sm: 'none', md: 'flex' },
+
+              fontFamily: 'Lexend Mega',
+              fontSize: '36px',
+              fontWeight: '700'
+            }}
+          >
+            Our History
+          </Typography>
           <Typography variant="body1">
             R&P Plastics, a family-owned and operated business, was established
             in Worcester, MA in 1999. After working in the plastics industry for
@@ -37,7 +49,18 @@ const About = () => {
             machines. In 2007, operations moved into our 50,000 sq. ft.
             facility, which is the company's current location in Winchendon, MA.
           </Typography>
-          <Typography variant="h4" component="h3" mt={2} color="secondary">
+          <Typography
+            variant="h4"
+            component="h3"
+            mt={2}
+            color="secondary"
+            gutterBottom
+            sx={{
+              fontFamily: 'Lexend Mega',
+              fontSize: '24px',
+              fontWeight: '400'
+            }}
+          >
             Why Choose R&P?
           </Typography>
           <Typography variant="body1">

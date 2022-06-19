@@ -42,7 +42,7 @@ const Navbar = () => {
       target: false
     },
     {
-      name: 'Phone: 978-297-1115',
+      name: 'Dial: 978-297-1115',
       href: 'tel:978-297-1115',
       target: false
     }

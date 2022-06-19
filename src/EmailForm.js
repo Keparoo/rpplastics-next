@@ -2,6 +2,7 @@ import { useForm } from 'react-hook-form';
 
 import { Button, Stack, TextField } from '@mui/material';
 import { Box } from '@mui/system';
+import SendIcon from '@mui/icons-material/Send';
 
 const EmailForm = () => {
   const {
@@ -25,7 +26,7 @@ const EmailForm = () => {
       method="post"
       enctype="text/plain"
       sx={{
-        '& > :not(style)': { m: 1, minWidth: '38ch' }
+        '& > :not(style)': { minWidth: '38ch' }
       }}
     >
       <Stack spacing={2}>
@@ -130,7 +131,9 @@ const EmailForm = () => {
       <Button
         onClick={handleSubmit(onSubmit)}
         variant="contained"
-        sx={{ width: '97%' }}
+        endIcon={<SendIcon />}
+        fullWidth
+        sx={{ marginTop: '16px' }}
       >
         Send
       </Button>

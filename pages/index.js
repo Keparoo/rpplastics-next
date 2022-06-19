@@ -6,9 +6,8 @@ import Hero from '../src/Hero';
 import Navbar from '../src/Navbar';
 import Products from '../src/Products';
 import Contact from '../src/Contact';
-import { Toolbar } from '@mui/material';
 
-// import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (

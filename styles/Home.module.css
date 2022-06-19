@@ -1,4 +1,11 @@
-.container {
+.heading {
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: '800';
+  font-size: '72px';
+}
+
+
+/* .container {
   padding: 0 2rem;
 }
 
@@ -113,4 +120,4 @@
     width: 100%;
     flex-direction: column;
   }
-}
+} */

@@ -7,13 +7,38 @@ const Hero = () => {
     <Box pt={13} id="home">
       <Grid container spacing={2}>
         <Grid item md={4} sm={12}>
-          <Typography variant="h2" component="h1" color="secondary">
+          <Typography
+            variant="h2"
+            component="h1"
+            color="secondary"
+            sx={{
+              fontFamily: 'Lexend Mega',
+              fontSize: '36px',
+              fontWeight: '700'
+            }}
+          >
             R&P Plastics
           </Typography>
-          <Typography color="secondary">
-            <em>Specializing in narrow-width LDPE film</em>
+          <Typography
+            color="secondary"
+            sx={{
+              fontFamily: 'Lexend Mega',
+              fontSize: '12px',
+              fontWeight: '300'
+            }}
+          >
+            Specializing in narrow-width LDPE film
           </Typography>
-          <Typography variant="h5" component="h2" mt={3}>
+          <Typography
+            variant="h5"
+            component="h2"
+            mt={3}
+            sx={{
+              fontFamily: 'Lexend Mega',
+              fontSize: '16px',
+              fontWeight: '400'
+            }}
+          >
             Manufacturers of Poly Bags and Poly Tubing since 1999
           </Typography>
         </Grid>

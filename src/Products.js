@@ -5,7 +5,16 @@ import Link from './Link';
 const Products = () => {
   return (
     <Box id="products" pt={13}>
-      <Typography variant="h2" component="h2" color="secondary">
+      <Typography
+        variant="h2"
+        component="h2"
+        color="secondary"
+        sx={{
+          fontFamily: 'Lexend Mega',
+          fontSize: '36px',
+          fontWeight: '700'
+        }}
+      >
         Our Products
       </Typography>
       <Typography variant="body1">

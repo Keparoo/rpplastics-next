@@ -1,4 +1,4 @@
-import { Stack, Typography } from '@mui/material';
+import { Grid, Stack, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import Link from './Link';
 
@@ -21,7 +21,7 @@ const Footer = () => {
       </Stack>
 
       <Typography mt={2} align="center" id="footer">
-        Copyright &copy; 2012, R&P Plastics, LLC. All Rights Reserved.
+        Copyright &copy; 2012, R&P Plastics, LLC.
       </Typography>
     </Box>
   );

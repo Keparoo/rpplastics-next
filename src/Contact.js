@@ -10,11 +10,21 @@ import EmailForm from './EmailForm';
 const Contact = () => {
   return (
     <Box id="contact" pt={13}>
-      <Typography variant="h2" component="h2" color="secondary" mb={2}>
-        Contact Us
-      </Typography>
       <Grid container>
         <Grid item xs={12} sm={6}>
+          <Typography
+            variant="h2"
+            component="h2"
+            color="secondary"
+            mb={2}
+            sx={{
+              fontFamily: 'Lexend Mega',
+              fontSize: '36px',
+              fontWeight: '700'
+            }}
+          >
+            Contact Us
+          </Typography>
           <Stack direction="row" spacing={1}>
             <MarkunreadMailboxIcon />
             <Typography variant="h6" component="p">

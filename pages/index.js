@@ -7,11 +7,11 @@ import Navbar from '../src/Navbar';
 import Products from '../src/Products';
 import Contact from '../src/Contact';
 
-import styles from '../styles/Home.module.css';
+// import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <React.Fragment>
+    <div style={{ backgroundColor: '#eceff1' }}>
       <header>
         <Navbar />
       </header>
@@ -28,6 +28,6 @@ export default function Home() {
       <Container component="footer">
         <Footer />
       </Container>
-    </React.Fragment>
+    </div>
   );
 }

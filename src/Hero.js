@@ -51,7 +51,7 @@ const Hero = () => {
             priority
           />
           <Typography variant="body1" sx={{ maxWidth: '720px' }}>
-            Welcome to R&P Plasticss! Visit the{' '}
+            Welcome to R&P Plastics! Visit the{' '}
             <Link href="#about" color="secondary">
               About
             </Link>{' '}

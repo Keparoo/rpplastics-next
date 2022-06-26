@@ -23,7 +23,6 @@ const EmailForm = () => {
       noValidate
       autoComplete="off"
       action="mailto:https://rpplastics@msn.com"
-      method="post"
       enctype="text/plain"
       sx={{
         '& > :not(style)': { minWidth: '38ch' }
@@ -142,6 +141,18 @@ const EmailForm = () => {
 };
 
 export default EmailForm;
+
+// <Box
+// component="form"
+// noValidate
+// autoComplete="off"
+// action="mailto:https://rpplastics@msn.com"
+// method="post"
+// enctype="text/plain"
+// sx={{
+//   '& > :not(style)': { minWidth: '38ch' }
+// }}
+// >
 
 // <form
 // action="mailto:contact@yourdomain.com"

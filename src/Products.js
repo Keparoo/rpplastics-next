@@ -58,6 +58,7 @@ const Products = () => {
           <Image
             src="/images/products.jpg"
             alt="rolls of plastic"
+            layout="responsive"
             width={537}
             height={403}
           />

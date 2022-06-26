@@ -69,6 +69,7 @@ const Navbar = () => {
             <Image
               src="/images/rp_logo_a_1600x510.svg"
               alt="R&P Logo"
+              layout="fixed"
               width={200}
               height={64}
             />

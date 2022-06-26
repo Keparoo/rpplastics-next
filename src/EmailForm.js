@@ -22,8 +22,6 @@ const EmailForm = () => {
       component="form"
       noValidate
       autoComplete="off"
-      action="mailto:https://rpplastics@msn.com"
-      enctype="text/plain"
       sx={{
         '& > :not(style)': { minWidth: '38ch' }
       }}
